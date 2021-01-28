@@ -117,7 +117,7 @@ public class FibonacciSequence {
     }
 
     public static void main(String[] args) {
-        System.out.println("常见递归方式：" + fibonacci(10));
+        System.out.println("常见递归方式 ：" + fibonacci(10));
         System.out.println("优化递归方式：" + optimizeFibonacci(1, 2, 9));
         System.out.println("循环栈方式：" + fibonacciLoop(10));
         System.out.println("数组循环方式：" + fibonacciArray(10));
